@@ -39,7 +39,7 @@ course'dan sonrabir şey gelirse bu geleni course_title olarak al dedik ,
 '''
 
 #Query kullanımı:
-@app.get("/courses/")
+@app.get("/courses/publish/")
 async def get_category_by_query(category:str):
     courses_to_return = []
     for course in courses_db:
