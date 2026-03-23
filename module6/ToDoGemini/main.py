@@ -72,7 +72,3 @@ async def delete_todo(db:db_dependency,todo_id:int=Path(gt=0)):
     db.commit()
 
 
-
-
-if __name__ == "__main__":
-    main()
