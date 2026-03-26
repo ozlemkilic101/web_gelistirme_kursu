@@ -1,0 +1,9 @@
+Veri tabanına zaman zaman yeni kolonlar eklememiz , var olan kolonları da çıkarmamız gerekecek. Veritabanında 1 tablo 1 kere
+oluştuktan sonra tekrar oluşturulmaz dolayısıyla ilgili class'ın içine yeni bir satır ekleyerek istediğimiz kolonu 
+direkt yaratmamız mümkün değildir. 
+
+Veritabanını silip tekrar oluşturmak yapabileceğimiz en büyük hatadır. Tüm verileri kaybederiz zaten canlı bir uygulamada yapılmaz.
+
+
+Bu değişikliklerin veritabanına yansıtılması için migration yapılmalı. Bunun için alembic kütüphanesi kullanacağız. 
+
